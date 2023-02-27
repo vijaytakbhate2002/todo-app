@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Todays Special</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <div class="container">
+        <div class="my-4">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <h1>Todays Special</h1>
+                    </a>
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Task Completed
+                        </button>
+                        <ul class="dropdown-menu">
+                            {% if todo_completed_lis|length != 0 %}
+                            {% for todo in todo_completed_lis %}
+                            <h5 class="btn btn-secondary btn-sm disabled">{{todo}}</h5>
+                            {% endfor %}
+                            <a class="btn btn-outline-danger btn-sm" href="/clear_done">Delete</a>
+                            {% else %}
+                            <div class="alert alert-secondary" role="alert">
+                                No any.
+                            </div>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    {% block body %}
+
+    {% endblock body %}
+</body>
+
+</html>

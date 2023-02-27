@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block body %}  
+  <!-- Todo adder -->
+  <div class="container">
+    <form action="/Update/{{todo.sno}}" method="POST">
+      <div class="mb-3">
+        <label for="title" class="form-label">Todo title</label>
+        <input type="text" class="form-control" value="{{todo.title}}" name="title" id="title">
+      </div>
+      <div class="mb-3">
+        <label for="desc" class="form-label">Todo Description</label>
+        <input type="text" class="form-control" value="{{todo.desc}}" name="desc" id="desc">
+      </div>
+
+      <div class="container">
+        <div class="my-4">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <button type="submit" class="btn btn-outline-secondary">Submit</button>
+              <div class="btn-group">
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+  </div>
+{% endblock body %}
