@@ -14,8 +14,8 @@ Welcome to Todays Special - your personal Todo Application! This application is 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/todays-special.git
-    cd todays-special
+    git clone https://github.com/vijaytakbhate2002/todo-app.git
+    cd todo-app
     ```
 
 2. **Install Dependencies:**
