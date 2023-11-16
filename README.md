@@ -1,58 +1,39 @@
-# Todays Special - Todo Application
-
-## Overview
+# Todays Special - Todo App
 
 Welcome to Todays Special - your personal Todo Application! This application is designed to help you manage your daily tasks effortlessly. Powered by Flask and a robust Database Management System (DBMS), it allows you to store and retrieve your todo items easily.
 
 ## Features
 
-- **Add Todo:** Quickly add new todo items with a title and description.
-- **Permanent Storage:** Your todos are securely stored in the database for future reference.
-- **User-Friendly Interface:** Accessible to both technical and non-technical users.
-
-## Getting Started
-
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/vijaytakbhate2002/todo-app.git
-    cd todo-app
-    ```
-
-2. **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the Application:**
-    ```bash
-    python app.py
-    ```
-
-4. **Access Todays Special:**
-    - Open your web browser and go to [http://localhost:5000](http://localhost:5000)
-    - Start adding and managing your todo items.
+- **Task Management:** Add, update, and delete tasks.
+- **Priority Setting:** Set priorities for your tasks.
+- **Date and Time:** Schedule tasks with due dates and times.
+- **Database Storage:** Utilizes a robust Database Management System for efficient data storage.
 
 ## Usage
 
-1. **Add Todo:**
-    - Click on the "Add Todo" button.
-    - Provide a title and description for your todo item.
+1. Clone the repository:
 
-2. **View Todos:**
-    - See a list of all your todos on the main page.
-    - Each todo displays its title and description.
+   ```bash
+   git clone https://github.com/vijaytakbhate2002/todo-app.git
+   ```
 
-3. **Edit or Delete Todos:**
-    - Edit or delete any todo using the provided options.
+2. Install dependencies:
 
-## Important Note
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- This application is a personal task management tool.
-- Ensure that you have Python and Flask installed before running the application.
+3. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+4. Access the application in your browser at [http://localhost:5000](http://localhost:5000).
 
 ## Contributing
 
-If you would like to contribute or report issues, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
 ## License
 
