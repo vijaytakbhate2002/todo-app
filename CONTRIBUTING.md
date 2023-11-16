@@ -1,43 +1,45 @@
-# Contributing to Todays Special
+# Contributing to Todays Special - Todo App
 
-Welcome to Todays Special! We appreciate your interest in contributing. Before you get started, please take a moment to read through the following guidelines.
+Thank you for considering contributing to Todays Special - Todo App! Your contributions are highly appreciated, and they help make this application better.
 
 ## How to Contribute
 
-1. **Fork the Repository.**
-2. **Clone your Forked Repository to your Local Machine:**
-    ```bash
-    git clone https://github.com/vijaytakbhate2002/todo-app.git
-    cd todo-app
-    ```
-3. **Create a New Branch for Your Contribution:**
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-4. **Make Your Changes and Commit Them:**
-    ```bash
-    git commit -m "Add your message here"
-    ```
-5. **Push Your Changes to Your Fork:**
-    ```bash
-    git push origin feature/your-feature
-    ```
-6. **Open a Pull Request on GitHub.**
+1. Fork the repository.
+
+2. Clone the forked repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   cd todo-app
+   ```
+
+3. Create a new branch for your contribution:
+
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+
+4. Make your changes and commit them with a descriptive commit message:
+
+   ```bash
+   git add .
+   git commit -m "Add your descriptive commit message"
+   ```
+
+5. Push your changes to your forked repository:
+
+   ```bash
+   git push origin feature/new-feature
+   ```
+
+6. Open a pull request against the `main` branch of the original repository.
 
 ## Code Style
 
-When contributing, please adhere to the existing code style. Follow PEP 8 guidelines for Python code.
-
-## Reporting Issues
-
-If you encounter any issues or have suggestions, please open an issue on the [Issue Tracker](https://github.com/your-username/todays-special/issues).
-
-## Code of Conduct
-
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
+Please follow the code style used in the project. If there's a specific style guide for the language or framework you're working with, adhere to that.
 
 ## License
 
-By contributing to Todays Special, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
-Thank you for your contributions!
+Happy coding!
